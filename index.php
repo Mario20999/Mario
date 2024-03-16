@@ -15,7 +15,7 @@
     <header class="header">
         <div class="header-menu container">
             <div class="logo">
-                <img src="img/logo.jpeg" alt="logo">
+                <img src="logo.jpeg" alt="logo">
             </div>
             <input type="checkbox" id="menu">
             <label for="menu">
