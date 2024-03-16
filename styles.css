@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;  
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FAFAFA;
+    padding: 150px 0 100px 0;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.header-menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #323232;
+    display: block;
+}
+
+.header-menu .navbar ul li a:hover {
+    color: #006100;
+}
+
+/*.logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: hsl(120,100%,22.35%);
+    text-transform: uppercase;
+} */
+
+.logo {
+    padding-top: 4px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.header-menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1 {
+    line-height: 1;
+    color: #323232;
+    text-transform: uppercase;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+.header-txt p {
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 45px;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #005e05;
+    color: #c7c7c7;
+    border-radius: 15px;
+}
+
+.about {    
+    padding: 100px 0;
+    display: flex;
+
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 500px;
+    border-radius: 25px;
+}
+
+.about-txt {
+    width: 50%;
+    margin-left: 25px;
+}
+
+.about-txt h2 {
+    color: #323232;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.about-txt p {
+    font-size: 16px;
+    color: #818181;
+}
+
+.services {
+    padding: 50px 0 100px 0;
+    text-align: center;
+    background-color: #1B1B1B;
+}
+
+.services h2 {
+    color: #A6A6A6;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.services-content {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-1 {
+    padding: 25px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    flex-basis: calc(25% - 20px);
+    border-radius: 30px;
+    background-color: #1B1B1A;
+}
+
+.service-1 i {
+    font-size: 30px;
+    color: #006100;
+}
+
+.service-1 h3 {
+    font-size: 30px;
+    color: #A6A6A6;
+    text-transform: capitalize;
+}
+
+.formulario {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 50px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    font-size: 25px;
+    color: #323232;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.input-container {
+    /* background-color: green; */
+    position: relative;
+}
+
+.input-container > i {
+    padding: 14px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #165F2C;
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    left: 5px;
+}
+
+.input-container > input, textarea {
+    padding: 17px 15px 17px 65px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 3px solid #165F2C;
+    font-size: 16px;
+    outline: none;
+    color: #323232;
+}
+
+textarea {
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+::placeholder {
+    color: #A0A0A0;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #165F2C;
+    color: #FFFFFF;
+    padding: 17px 30px;
+    width: 100%;
+    border: 0;    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #1B1B1B;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link ul li {
+    margin-right: 50px;
+}
+
+.link ul li a {
+    color: #A6A6A6;
+    font-size: 17px;
+}
+
+.link ul li a:hover{
+    color: #006100;
+}
+
+@media (max-width:991px) {
+
+    .header-menu {
+        padding: 20px;
+    }
+
+    .header-menu label {
+        display: initial;
+    }
+
+    .header-menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #FFFFFF;
+        display: none;
+    }
+
+    .header-menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-txt {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .about {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 100%;
+        order: 2;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-txt {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-content {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    .service-1 {
+        margin-bottom: 20px;
+    }
+
+    .formulario {
+        padding: 30px;
+        margin-top: 0;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 30px;        
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul {
+        flex-direction: column;
+    }
+
+    .link ul li {
+        margin: 0 0 15px 0;
+    }
+}
