@@ -73,3 +73,9 @@ body {
     font-size: 75px;
     margin: 10px;
 }
+
+@media (max-width: 768px) {
+    .contenedor-1 h1 {
+        font-size: 10vw; /* Cambia el tamaño del texto en pantallas más pequeñas */
+    }
+}
